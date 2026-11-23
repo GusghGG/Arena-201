@@ -3,11 +3,11 @@ package main.model.personagem.concreto;
 import main.model.personagem.Personagem;
 
 public class Guerreiro extends Personagem {
-    private int escudo = 3;
+    private int escudo;
 
     public Guerreiro(String nome) {
         super(nome);
-        this.escudo= escudo;
+        this.escudo= 3;
     }
 
     public void defender(int escudo){
